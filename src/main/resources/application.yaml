@@ -1,0 +1,13 @@
+server:
+  port: 9080
+  
+spring:
+  application:
+    name: mongo-demo
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mDB
+      
+logging:
+  level:
+    root: DEBUG
